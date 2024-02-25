@@ -1,5 +1,169 @@
+/*Diseño Mobile First - viewport 'Phone' */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "IM Fell English", serif;
 }
+
+h1 {
+    font-weight: 400;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.To-Do-List h1 img {
+    width: 75px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.dog_task {
+    display: flex;
+    margin-left: 69%;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+#dog {
+    width: 100px;
+}
+
+.Item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding-left: 20px;
+    background-color: #F5F5DC;
+    margin-top: 10px;
+    height: 40px;
+    margin: 20px;
+}
+
+button {
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    background-color: #B59778;
+}
+
+ul li {
+    list-style: none;
+    font-size: 16px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    margin-left: 50px;
+    position: relative;
+}
+
+ul li::before {
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-image: url(../assets/check-box-empty.png);
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+
+}
+
+ul li.checked {
+    color: #555;
+    text-decoration: line-through;
+}
+
+ul li.checked::before {
+    background-image: url(../assets/check.png);
+    height: 20px;
+    width: 20px;
+}
+
+ul li span {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
+    
+    &:hover {
+        background-color:  #F5F5DC;
+        border-radius: 15px;
+    }
+}
+
+#Tasks_container {
+    background-color: #F5F5DC;
+    border-radius: 15px;
+    width: 90%;
+    margin-left: 20px;
+}
+
+#input_field {
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+
+/*Diseño Tablet - viewport 'Tablet' */
+@media(min-width: 768px) {
+    .container {
+        width: 100%;
+        min-height: 100vh;
+        border-radius: 15px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #CFC8B8;
+    }
+    
+    .To-Do-List {
+        width: 100%;
+        max-width: 560px;
+        background: white;
+        margin: 100px auto 20px;
+        padding: 40px 30px 70px;
+        border-radius: 20px;
+    
+    }
+}
+
+/*Diseño Desktop - viewport 'Desktop' */
+@media(min-width: 1024px) {
+    .container {
+        width: 100%;
+        min-height: 100vh;
+        border-radius: 15px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #CFC8B8;
+    }
+    
+    .To-Do-List {
+        width: 100%;
+        max-width: 560px;
+        background: white;
+        margin: 100px auto 20px;
+        padding: 40px 30px 70px;
+        border-radius: 20px;
+    
+    }
+
+   
+
+    
+}
+

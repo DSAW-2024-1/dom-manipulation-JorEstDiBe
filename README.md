@@ -1,3 +1,5 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/EEMCX3dO)
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=13818391&assignment_repo_type=AssignmentRepo)
 # Lista de Tareas
 
 Esta tarea consiste en crear una aplicación de lista de tareas utilizando HTML, CSS y JavaScript. La aplicación debe ser capaz de crear, eliminar y marcar tareas como completadas. Además, se espera que el diseño sea responsive y se adapte correctamente a las medidas de dispositivos móviles, tablets y desktops.
@@ -28,4 +30,13 @@ El diseño de la aplicación debe ser responsive y adaptarse correctamente a dif
 | HTML Semántico     | 0.5     |
 | Funcionalidad      | 3       |
 
+
+## Resposive Designs
+En la Carpeta 'Responsive Designs' que se encuentra almacenada en este repositorio se encuentran las imagenes capturadas con respecto a la forma que se ve el estilo de la pagina adaptado hacia la accesibilidad de diferentes dispositivos.
+[Desktop](./Responsive%20Designs/Desktop%20Viewport.jpeg),
+[Tablet](./Responsive%20Designs/Tablet%20Viewport.jpeg),
+[Mobile](./Responsive%20Designs/Mobile%20Viewport.jpeg).
+
+## GitHub Pages
+Link: https://dsaw-2024-1.github.io/dom-manipulation-JorEstDiBe/
 
