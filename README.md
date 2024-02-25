@@ -31,3 +31,13 @@ El diseño de la aplicación debe ser responsive y adaptarse correctamente a dif
 | Funcionalidad      | 3       |
 
 
+## Resposive Designs
+En la Carpeta 'Responsive Designs' que se encuentra almacenada en este repositorio se encuentran las imagenes capturadas con respecto a la forma que se ve el estilo de la pagina adaptado hacia la accesibilidad de diferentes dispositivos.
+[Desktop](./Responsive%20Designs/Desktop%20Viewport.jpeg),
+[Tablet](./Responsive%20Designs/Tablet%20Viewport.jpeg),
+[Mobile](./Responsive%20Designs/Mobile%20Viewport.jpeg).
+
+
+## GitHub Pages
+Link: 
+

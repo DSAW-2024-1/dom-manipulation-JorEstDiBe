@@ -4,10 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/styles.css" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
+
+    <title>TO DO LIST</title>
   </head>
   <body>
-    <h1>Mi TODO list</h1>
+    <div class="container">
+      <div class="To-Do-List">
+        <h1>TO-DO List <img src="./assets/check-list.png" alt="list_img"></h1>
+        <div class="Item">
+          <input type="text" id="input_field" placeholder="Añadir Tarea">
+          <button onclick="Add_task()"> Añadir </button>
+        </div>
+        <div class="List">
+          <ul id="Tasks_container">           
+          </ul>
+        </div>
+      </div>
+      <div class="dog_task">
+        <img src="./assets/dog (1).png" alt="doggy" id="dog">
+      </div>
+      
+    </div>
     <script src="scripts/script.js"></script>
   </body>
 </html>
