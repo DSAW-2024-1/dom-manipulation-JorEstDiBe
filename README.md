@@ -37,7 +37,10 @@ En la Carpeta 'Responsive Designs' que se encuentra almacenada en este repositor
 [Tablet](./Responsive%20Designs/Tablet%20Viewport.jpeg),
 [Mobile](./Responsive%20Designs/Mobile%20Viewport.jpeg).
 
+### Validaciones
+--> Se agrega la validacion del Text Input Field para no crear una tarea vacia, indicandole al usuario por medio de un mensaje tipo ALERT.
+
 
 ## GitHub Pages
-Link: 
+Link: https://dsaw-2024-1.github.io/dom-manipulation-JorEstDiBe/
 
